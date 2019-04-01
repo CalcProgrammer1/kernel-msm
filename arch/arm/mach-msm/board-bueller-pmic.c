@@ -119,12 +119,12 @@ static struct pm8xxx_gpio_init pm8921_gpios[] __initdata = {
 
 /* Buller PM8921 GPIO rev01 configurations - Proto1 */
 static struct pm8xxx_gpio_init pm8921_apq8064_bueller_01_gpios[] __initdata = {
-	PM8921_GPIO_OUTPUT_VIN(44, 1, PM_GPIO_VIN_S4),	/*Load Switch Enable*/
+//	PM8921_GPIO_OUTPUT_VIN(44, 1, PM_GPIO_VIN_S4),	/*Load Switch Enable*/
 };
 
 /* Buller PM8921 GPIO rev02 configurations - Proto2 */
 static struct pm8xxx_gpio_init pm8921_apq8064_bueller_02_gpios[] __initdata = {
-	PM8921_GPIO_OUTPUT_VIN(44, 1, PM_GPIO_VIN_S4),	/*5V_PWR_EN*/
+//	PM8921_GPIO_OUTPUT_VIN(44, 1, PM_GPIO_VIN_S4),	/*5V_PWR_EN*/
 };
 
 /* Buller PM8921 MPP rev02 configurations - Proto2 */
