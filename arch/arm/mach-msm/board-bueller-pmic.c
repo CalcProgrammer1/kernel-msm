@@ -113,7 +113,7 @@ struct pm8xxx_mpp_init {
 
 /* Initial PM8921 GPIO configurations */
 static struct pm8xxx_gpio_init pm8921_gpios[] __initdata = {
-	PM8921_GPIO_OUTPUT(33, 0, HIGH),
+//	PM8921_GPIO_OUTPUT(33, 0, HIGH),
 	PM8921_GPIO_OUTPUT(42, 0, HIGH),	/* OTG_CNTL */
 };
 
