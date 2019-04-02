@@ -138,7 +138,7 @@ static struct pm8xxx_mpp_init pm8xxx_apq8064_bueller_03_mpps[] __initdata = {
 	/* USB_5V_EN or Load switch enable */
 //	PM8921_MPP_INIT(8, D_OUTPUT, PM8921_MPP_DIG_LEVEL_VPH, DOUT_CTRL_HIGH),
 	/* AR8151 ethernet controller RESET */
-	PM8921_MPP_INIT(1, D_OUTPUT, PM8921_MPP_DIG_LEVEL_L15, DOUT_CTRL_HIGH),
+//	PM8921_MPP_INIT(1, D_OUTPUT, PM8921_MPP_DIG_LEVEL_L15, DOUT_CTRL_HIGH),
 };
 
 /* Initial PM8XXX MPP configurations */
@@ -147,7 +147,7 @@ static struct pm8xxx_mpp_init pm8xxx_mpps[] __initdata = {
 	/* External 5V regulator enable; shared by HDMI and USB_OTG switches. */
 //	PM8921_MPP_INIT(7, D_OUTPUT, PM8921_MPP_DIG_LEVEL_VPH, DOUT_CTRL_LOW),
 	/* PCIE_RESET_N */
-	PM8921_MPP_INIT(1, D_OUTPUT, PM8921_MPP_DIG_LEVEL_VPH, DOUT_CTRL_HIGH),
+//	PM8921_MPP_INIT(1, D_OUTPUT, PM8921_MPP_DIG_LEVEL_VPH, DOUT_CTRL_HIGH),
 	PM8921_MPP_INIT(10, D_OUTPUT, PM8921_MPP_DIG_LEVEL_VPH, DOUT_CTRL_LOW),
 };
 
