@@ -136,7 +136,7 @@ static struct pm8xxx_mpp_init pm8xxx_apq8064_bueller_02_mpps[] __initdata = {
 /* Buller PM8921 MPP rev03 configurations - EVT1 */
 static struct pm8xxx_mpp_init pm8xxx_apq8064_bueller_03_mpps[] __initdata = {
 	/* USB_5V_EN or Load switch enable */
-//	PM8921_MPP_INIT(8, D_OUTPUT, PM8921_MPP_DIG_LEVEL_VPH, DOUT_CTRL_HIGH),
+	PM8921_MPP_INIT(8, D_OUTPUT, PM8921_MPP_DIG_LEVEL_VPH, DOUT_CTRL_HIGH),
 	/* AR8151 ethernet controller RESET */
 //	PM8921_MPP_INIT(1, D_OUTPUT, PM8921_MPP_DIG_LEVEL_L15, DOUT_CTRL_HIGH),
 };
